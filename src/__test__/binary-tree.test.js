@@ -1,12 +1,12 @@
 'use strict';
 
 import binaryTree from '../model/binary-tree';
-import { preOderTraversal, postOrderTraversal, inLineTraveral } from '../lib/traversals';
+import { preOrderTraversal, postOrderTraversal, inLineTraveral } from '../lib/traversals';
 
 describe('Pre-Order', () => {
   test('Expect a string of visited nodes as  ', () => {
     let str = '';
-    preOderTraversal(binaryTree.root, (nodeValue) => {
+    preOrderTraversal(binaryTree.root, (nodeValue) => {
       str += `${nodeValue}, `;
     });
     expect(str.trim()).toEqual('1, 2, 6, 7, 8, 9, 3, 4, 5,');
@@ -19,7 +19,7 @@ describe('Post-Order', () => {
     postOrderTraversal(binaryTree.root, (nodeValue) => {
       str += `${nodeValue}, `;
     });
-    expect(str.trim()).toEqual('1, 2, 6, 7, 8, 9, 3, 4, 5,');
+    expect(str.trim()).toEqual('2, 6, 7, 8, 9, 3, 4, 5, 1,');
   });
 });
 
@@ -29,6 +29,6 @@ describe('inLine-Order', () => {
     inLineTraveral(binaryTree.root, (nodeValue) => {
       str += `${nodeValue}, `;
     });
-    expect(str.trim()).toEqual('1, 2, 6, 7, 8, 9, 3, 4, 5,');
+    expect(str.trim()).toEqual('2, 6, 7, 8, 9, 1, 3, 4, 5,');
   });
 });

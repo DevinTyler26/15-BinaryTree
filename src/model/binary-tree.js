@@ -14,7 +14,6 @@ for (let i = 1; i <= 9; i++) {
 }
 
 const [one, two, three, four, five, six, seven, eight, nine] = nodes;
-
 one.left = two;
 one.right = three;
 two.left = six;
