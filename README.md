@@ -42,4 +42,4 @@ To run this program:
 - npm init -y
 - npm i
 - Open the project in your text editor (code .)
-- In your integrated terminal, run a test (npm run test)
+- In your integrated terminal, run a test (npm run test) 
