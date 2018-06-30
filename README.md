@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/DevinTyler26/15-BinaryTree.svg?branch=lab-15)](https://travis-ci.org/DevinTyler26/15-BinaryTree)
 ![cf](http://i.imgur.com/7v5ASc8.png) Lab 15- Binary Tree Data Structure
 ====
 ## To Submit this Assignment
