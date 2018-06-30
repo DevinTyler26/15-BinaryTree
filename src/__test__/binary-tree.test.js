@@ -4,7 +4,7 @@ import binaryTree from '../model/binary-tree';
 import { preOrderTraversal, postOrderTraversal, inLineTraveral } from '../lib/traversals';
 
 describe('Pre-Order', () => {
-  test('Expect a string of visited nodes as  ', () => {
+  test('Expect a string of visited nodes to be in pre order', () => {
     let str = '';
     preOrderTraversal(binaryTree.root, (nodeValue) => {
       str += `${nodeValue}, `;
@@ -14,7 +14,7 @@ describe('Pre-Order', () => {
 });
 
 describe('Post-Order', () => {
-  test('Expect a string of visited nodes as  ', () => {
+  test('Expect a string of visited nodes to be in post order', () => {
     let str = '';
     postOrderTraversal(binaryTree.root, (nodeValue) => {
       str += `${nodeValue}, `;
@@ -24,7 +24,7 @@ describe('Post-Order', () => {
 });
 
 describe('inLine-Order', () => {
-  test('Expect a string of visited nodes as  ', () => {
+  test('Expect a string of visited nodes to be in line order', () => {
     let str = '';
     inLineTraveral(binaryTree.root, (nodeValue) => {
       str += `${nodeValue}, `;
