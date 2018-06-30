@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/DevinTyler26/15-BinaryTree.svg?branch=lab-15)](https://travis-ci.org/DevinTyler26/15-BinaryTree)
 ![cf](http://i.imgur.com/7v5ASc8.png) Lab 15- Binary Tree Data Structure
 ====
 ## To Submit this Assignment
@@ -32,3 +33,14 @@ If you are going to make an Express API for this lab for the bonus, follow the s
 
 Otherwise, please explain how a user should execute your code and run your tests if someone else were to clone down this repo. Please include Big Oh time complexity for traversal of your binary tree. 
 
+## Documentation
+Big O time complexity: O(n)
+To run this program:
+- Click on click the green button that says "Clone or download"
+- Copy the given link
+- In your terminal, in the directory that you would like to save the project in, git clone (paste link)
+- Navigate into the folder directory (cd 15-BinaryTree)
+- npm init -y
+- npm i
+- Open the project in your text editor (code .)
+- In your integrated terminal, run a test (npm run test) 
