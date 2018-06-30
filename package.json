@@ -4,7 +4,7 @@
   "description": "![cf](http://i.imgur.com/7v5ASc8.png) Lab 15- Binary Tree Data Structure ==== ## To Submit this Assignment * Read this document entirely and estimate how long this assignment will take. * Work in a fork of this repository * Work in a branch on your fork called `lab-15` * Set up Travis CI on your repo * Create a pull request from your `lab-15` branch to your master branch * Submit on canvas a question and observation, your original estimate, how long you spent, and a link to your pull request",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . jest --coverage --detectOpenHandles --forceExit --runInBand",
+    "test": "jest --coverage --detectOpenHandles --forceExit --runInBand",
     "testWatch": "jest --coverage --watchAll",
     "test-nolint": "jest --coverage --detectOpenHandles --forceExit --runInBand"
   },
